@@ -3,8 +3,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Verdana", sans-serif;
-    font-weight: normal;
+    /* font-family: "Verdana", sans-serif; */
+    font-family: "Tahoma", sans-serif;
+    /* font-weight: normal; */
 }
 
 body p {
@@ -21,16 +22,20 @@ a:hover {
     text-decoration: underline;
 }
 
+#names h1 {
+    padding-bottom: 0.2em;
+}
+
 #header_0 {
     background-color: SteelBlue;
     color: #f0f0f0;
-    text-align: right;
-    padding: 10px 0;
-    border-bottom: 2px solid black;
+    text-align: left;
+    padding: 1em 0;
+    border-bottom: 0.2em solid black;
 }
 
 #nav_0 {
-    padding: 10px;
+    padding: 1em;
 }
 
 #nav_0 ul {
@@ -39,7 +44,7 @@ a:hover {
 
 #nav_0 li {
     display: inline;
-    padding-right: 15px;
+    padding-right: 0.5em;
 }
 
 #nav_0 li .icon {
@@ -49,10 +54,13 @@ a:hover {
 #nav_0 a {
 }
 
-#section_0 #headshot {
-    width: 128px;
-    float: left;
-    padding: 16px 16px 16px 0;
+#headshot {
+    width: 100%;
+    padding: 1.0em 1.5em 1.5em 0;
+}
+
+#hai {
+    font-size: 150%;
 }
 
 /* @media only screen and (max-width: 500px) { */
@@ -62,9 +70,11 @@ a:hover {
 /* } */
 
 .row {
+    width: 85%;
     max-width: 800px;
-    display: flex;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .col-1 {
