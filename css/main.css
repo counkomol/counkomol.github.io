@@ -3,13 +3,20 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* font-family: "Verdana", sans-serif; */
-    /* font-family: "Tahoma", sans-serif; */
-    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
-body p {
-    line-height: 1.5em;
+body {
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+h1 {
+    margin: .64rem 0;
+}
+
+p {
+    margin: .64rem 0;
 }
 
 a {
@@ -21,24 +28,13 @@ a:hover {
     text-decoration: underline;
 }
 
-/* #names h1 { */
-/*     padding-bottom: 0.2em; */
-/* } */
-
 hr {
-    margin: 1.5em 0;
+    margin: .64rem 0;
 }
-
-
-/* @media only screen and (max-width: 500px) { */
-/*     p { */
-/* 	display: none; */
-/*     } */
-/* } */
 
 .row {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
     max-width: 1024px;
@@ -93,67 +89,62 @@ hr {
     width: 100.00%
 }
 
-.img-circle {
+.some-bg {
+    background-color: SteelBlue;
+}
+
+.header-headshot {
+    margin: .64rem .64rem;
+    max-width: 200px;
+    width: 50%;
+}
+
+.header-text {
+    color: #f0f0f0;
+    margin: auto .64rem .64rem .64rem;
+}
+
+.header-text-item {
+    margin-top: .64rem;
+}
+
+.header-text-name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.img-headshot {
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.img-figure {
+    width: 100%;
+}
+
+.fa {
+    padding: 0.5em;
+    background: white;
     border-radius: 50%;
 }
 
 .project {
-    margin-bottom: 1em;
-    margin-top: 1em;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.project-figure {
+    margin-right: 1rem;
 }
 
 .project-title {
     font-weight: bold;
 }
 
+.project-text {
+    margin: .64rem auto;
+}
+
 .project-link {
 }
-
-#header-stuffs {
-    background-color: SteelBlue;
-}
-
-#headshot {
-    border: 2px solid white;
-    /* margin: auto 16px; */
-    margin-left: 20px;
-    width: 200px;
-    position: relative;
-    top: 32px;
-}
-
-#header-text {
-    color: #f0f0f0;
-    margin: auto auto auto 16px;
-}
-
-#header-text-name {
-    font-size: 2em;
-    font-weight: bold;
-    padding-bottom: 8px;
-}
-
-#header-text-class {
-    font-size: 1em;
-}
-
-#nav_0 {
-    margin: 2.5em 0 1em 0;
-}
-
-#nav_0 ul {
-    list-style-type: none;
-}
-
-#nav_0 li {
-    display: inline;
-    padding-right: 0.5em;
-}
-
-#nav_0 li .icon {
-    padding-right: 0.3em;
-}
-
-#nav_0 a {
-}
-

@@ -13,31 +13,24 @@
       gtag('js', new Date());
       gtag('config', 'UA-10055797-2');
     </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <header>
-      <div class="row" id="header-stuffs">
-	<div>
-	  <img src="images/poo.png" alt="Fake headshot" class="img-circle" id="headshot">
+      <div class="row some-bg">
+	<div class="header-headshot">
+	  <img src="images/poo.png" alt="Fake headshot" class="img-headshot">
 	</div>
-	<div id="header-text">
-	  <div id="header-text-name">Chawin Chek Ounkomol</div>
-	  <div id="header-text-class"><- (Note: that's not really me.)</div>
+	<div class="header-text">
+	  <div class="header-text-name">Chawin Chek Ounkomol</div>
+	  <div class="header-text-item">(Note: that's not really me.)</div>
+	  <div class="header-text-item">
+	    <a href="https://www.linkedin.com/in/ccounkomol" target="_blank" class="fa fa-linkedin"></a>
+	    <a href="https://github.com/counkomol" target="_blank" class="fa fa-github-alt"></a>
+	  </div>
 	</div>
       </div>
     </header>
-
-    <nav id="nav_0">
-      <div class="row">
-	<div class="col-12">
-	  <ul>
-	    <li><a href="https://www.linkedin.com/in/ccounkomol" target="_blank"><span class="icon fa fa-linkedin"></span>LinkedIn</a></li>
-	    <li><a href="https://github.com/counkomol" target="_blank"><span class="icon fa fa-github-alt"></span>GitHub</a></li>
-	    <li><a href="#" target="_blank"><span class="icon fa fa-twitter"></span>Twitter maybe....</a></li>
-	  </ul>
-	</div>
-      </div>
-    </nav>
 
     <section>
       <div class="row">
@@ -52,6 +45,7 @@
 	</div>
       </div>
     </section>
+
     <section>
       <div class="row">
 	<div class="col-12">
@@ -64,12 +58,17 @@
 	</div>
       </div>
       <div class="row project">
-	<div class="col-3">
-	  Figure
+	<div class="col-4">
+	  <div class="project-figure">
+	    <img src="images/fu_net.gif" class="img-figure">
+	  </div>
 	</div>
-	<div class="col-9">
+	<div class="col-8">
 	  <div class="project-title">
 	    Label-free prediction of three-dimensional fluorescence images from transmitted light microscopy
+	  </div>
+	  <div class="project-text">
+	    The aim of this project is to predict fluorescence microscopy images of stem cells from bright-field images of those cells. Surprisingly, the localization of a handful of sub-cellular structures can be extracted from simple bright-field microscopy images.
 	  </div>
 	  <div class="project-link">
 	    <a href="https://doi.org/10.1101/289504">[bioRxiv]</a>
