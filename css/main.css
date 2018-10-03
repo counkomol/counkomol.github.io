@@ -94,18 +94,19 @@ hr {
 }
 
 .header-headshot {
-    margin: .80rem .80rem;
+    margin: 0.80rem 0.80rem;
+    max-height: 200px;
     max-width: 200px;
     width: 50%;
 }
 
 .header-text {
     color: #f0f0f0;
-    margin: auto .80rem .80rem .80rem;
+    margin: auto .80rem auto .80rem;
 }
 
 .header-text-item {
-    margin-top: .64rem;
+    margin: .80rem auto auto auto;
 }
 
 .header-text-name {
