@@ -94,14 +94,14 @@ hr {
 }
 
 .header-headshot {
-    margin: .64rem .64rem;
+    margin: .80rem .80rem;
     max-width: 200px;
     width: 50%;
 }
 
 .header-text {
     color: #f0f0f0;
-    margin: auto .64rem .64rem .64rem;
+    margin: auto .80rem .80rem .80rem;
 }
 
 .header-text-item {
@@ -140,6 +140,11 @@ hr {
 
 .project-title {
     font-weight: bold;
+}
+
+.project-authors {
+    font-size: 0.9rem;
+    margin: .64rem auto;
 }
 
 .project-text {
